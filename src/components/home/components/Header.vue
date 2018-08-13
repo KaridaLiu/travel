@@ -16,34 +16,37 @@ export default{
 </script>
 
 <style lang="stylus" scoped>
+  @import '~styles/varibles.styl'
   #header
     display: flex
-    font-size: .15rem
+    font-size: .28rem
     width: 100%
-    height: .64rem
+    height: 1rem
     background-color: #fff
     .header-logo
       float: left
-      margin: .22rem .1rem
-      color: #ffa800
+      width: 1.8rem
+      margin: .35rem .1rem
+      color: $bgColor
+      text-align: center
     .header-login
       float: right
-      margin: .22rem .1rem
-      color: #ffa800
+      margin: .35rem .1rem
+      color: $bgColor
     .header-search
       position: relative
       flex: 1
-      height: .2rem
+      height: .5rem
       background-color: #f3f3f3
       border-radius: .18rem
-      margin: .17rem .1rem
-      color: #d1d1d1
-      padding: .05rem .15rem
-      line-height: .2rem
+      margin: .25rem .1rem
+      color: #757575
+      padding: 0 .15rem
+      line-height: .5rem
+      font-size: .23rem
       .search-icon
         position: absolute
         right: .15rem
-        top: .05rem
-        font-weight: bord
-        font-size: .18rem
+        font-weight: bold
+        color: #b8b8b8
 </style>
