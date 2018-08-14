@@ -62,9 +62,11 @@ export default {
 
 <style lang="stylus" scoped>
 #icons
+  overflow: hidden
+  width: 96%
   height: 0
-  padding-bottom: 47%
-  margin: .4rem .2rem
+  padding-bottom: 50%
+  margin: 4% 2%
   .icon
     overflow: hidden
     position: relative
@@ -72,18 +74,22 @@ export default {
     width: 25%
     height: 0
     padding-bottom: 23%
-    margin-bottom: .1rem
+    margin-bottom: 1%
     .icon-img
       position: absolute
-      top: .1rem
+      top: 13%
+      right: 0
+      left: 0
       .icon-content
-        width: 50%
         display: block
         margin: 0 auto
+        width: 50% 
     .icon-desc
       position: absolute
       width: 100%
-      bottom: .1rem
+      bottom: 0
+      right: 0
+      left: 0
       font-size: .3rem
       text-align: center
 </style>
