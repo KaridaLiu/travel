@@ -12,7 +12,7 @@
 <script>
 export default {
   name: 'homeIcon',
-  data () {
+  data: function () {
     return {
       iconList: [{
         id: 'img001',
@@ -83,7 +83,7 @@ export default {
       .icon-content
         display: block
         margin: 0 auto
-        width: 50% 
+        width: 50%
     .icon-desc
       position: absolute
       width: 100%

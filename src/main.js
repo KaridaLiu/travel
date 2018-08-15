@@ -17,6 +17,9 @@ Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  data: {
+    List: ''
+  },
   router,
   components: { App },
   template: '<App/>'
