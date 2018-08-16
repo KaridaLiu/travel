@@ -1,9 +1,7 @@
 <template>
   <div id="recommand">
     <div class="recommand-header">
-      <div class="recommand-header-content">
-        <span class="iconfont title-raw">&#xe65f;</span>&nbsp;&nbsp;&nbsp;推荐攻略&nbsp;&nbsp;&nbsp;<span class="iconfont title-raw">&#xe660;</span>
-      </div>
+      <span class="iconfont title-raw">&#xe65f;</span>&nbsp;&nbsp;&nbsp;推荐攻略&nbsp;&nbsp;&nbsp;<span class="iconfont title-raw">&#xe660;</span>
     </div>
     <div class="recommand-wrapper" v-for="item of recommandList" :key="item.id">
       <div class="recommand-title-wrapper">
@@ -151,20 +149,11 @@ export default {
 
 <style lang="stylus" scoped>
 .recommand-header
-  position: relative
-  width: 100%
-  height: 0
-  padding-bottom: 9%
-  line-height: 9%
+  line-height: .66rem
   font-size: .28rem
   text-align: center
   background: #f8f8f8
   color: #999999
-  .recommand-header-content
-    position: absolute
-    right: 0
-    left: 0
-    top: 50%
   .title-raw
     font-size: .25rem
 .recommand-wrapper

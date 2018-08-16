@@ -41,17 +41,21 @@ export default {
       flex: 1
       padding-bottom: 18%
       .footer-btn-content
+        position: relative
         width: 81%
         height: 0
         padding-bottom: 27%
         background: #403e42
         margin: 25% 10%
         color: #7d7b7e
-        text-align: center
         border-radius: .1rem
+        font-size: .2rem
         .btn-text
-          line-height: 280%
-          font-size: .2rem
+          position: absolute
+          display: block
+          width: 100%
+          top: 27%
+          text-align: center
   .web-message
     width: 100%
     font-size: .4rem

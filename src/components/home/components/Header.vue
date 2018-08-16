@@ -1,11 +1,11 @@
 <template>
   <div id="header">
-    <div class="header-logo">嗡嗡嗡</div>
-    <div class="header-search">
+    <router-link class="header-logo" to="/">嗡嗡嗡</router-link>
+    <router-link class="header-search" to="/search">
       搜索目的地/攻略/游记
       <span class="search-icon iconfont">&#xe651;</span>
-    </div>
-    <div class="header-login">登录</div>
+    </router-link>
+    <router-link to="/login" class="header-login">登录</router-link>
   </div>
 </template>
 
@@ -31,10 +31,11 @@ export default{
       text-align: center
     .header-login
       float: right
-      margin: .35rem .1rem
+      margin: .35rem .2rem
       color: $bgColor
     .header-search
       position: relative
+      display: block
       flex: 1
       height: .5rem
       background-color: #f3f3f3
