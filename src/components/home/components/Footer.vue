@@ -14,7 +14,7 @@
         <div class="footer-btn-content"><span class="btn-text">登录</span></div>
       </div>
     </div>
-    <div class="web-message">HelloWorld!</div>
+    <div class="web-message">嗡嗡嗡</div>
   </div>
 </template>
 

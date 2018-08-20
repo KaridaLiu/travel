@@ -35,6 +35,18 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+:-moz-placeholder
+  color: #c7c7c7
+  opacity:1
+::-moz-placeholder
+  color: #c7c7c7
+  opacity:1
+input:-ms-input-placeholder
+  color: #c7c7c7
+  opacity:1
+input::-webkit-input-placeholder
+  color: #c7c7c7
+  opacity:1
 .login-swift-wrapper
   width: 94%
   margin: 0 auto

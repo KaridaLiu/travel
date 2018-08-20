@@ -1,10 +1,12 @@
 <template>
   <div id="icons">
     <div class="icon" v-for="item of iconList" :key="item.id">
+      <router-link :to="'/'+item.type">
       <div class="icon-img">
         <img class="icon-content" :src="item.iconUrl">
       </div>
       <div class="icon-desc" :style="{color: item.iconColor}">{{item.iconDesc}}</div>
+      </router-link>
     </div>
   </div>
 </template>
@@ -18,42 +20,50 @@ export default {
         id: 'img001',
         iconUrl: '../../../../static/img/zhaogonglue.png',
         iconDesc: '找攻略',
-        iconColor: '#ff9d00'
+        iconColor: '#ff9d00',
+        type: 'Strategy'
       }, {
         id: 'img002',
         iconUrl: '../../../../static/img/kanyouji.png',
         iconDesc: '看游记',
-        iconColor: '#ffca2b'
+        iconColor: '#ffca2b',
+        type: 'Strategy'
       }, {
         id: 'img003',
         iconUrl: '../../../../static/img/wendaren.png',
         iconDesc: '问达人',
-        iconColor: '#52dac0'
+        iconColor: '#52dac0',
+        type: 'Strategy'
       }, {
         id: 'img004',
         iconUrl: '../../../../static/img/jieban.png',
         iconDesc: '结伴',
-        iconColor: '#f94a87'
+        iconColor: '#f94a87',
+        type: 'Strategy'
       }, {
         id: 'img005',
         iconUrl: '../../../../static/img/jiudian.png',
         iconDesc: '酒店',
-        iconColor: '#32a2f1'
+        iconColor: '#32a2f1',
+        type: 'Strategy'
       }, {
         id: 'img006',
         iconUrl: '../../../../static/img/lvxingshangcheng.png',
         iconDesc: '旅行商城',
-        iconColor: '#fd4e4e'
+        iconColor: '#fd4e4e',
+        type: 'Strategy'
       }, {
         id: 'img007',
         iconUrl: '../../../../static/img/jipiao.png',
         iconDesc: '机票',
-        iconColor: '#99d02e'
+        iconColor: '#99d02e',
+        type: 'Strategy'
       }, {
         id: 'img008',
         iconUrl: '../../../../static/img/dangdiwanle.png',
         iconDesc: '当地玩乐',
-        iconColor: '#d174f0'
+        iconColor: '#d174f0',
+        type: 'Strategy'
       }]
     }
   }
