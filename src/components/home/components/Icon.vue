@@ -27,7 +27,7 @@ export default {
         iconUrl: '../../../../static/img/kanyouji.png',
         iconDesc: '看游记',
         iconColor: '#ffca2b',
-        type: 'Strategy'
+        type: 'Travels'
       }, {
         id: 'img003',
         iconUrl: '../../../../static/img/wendaren.png',

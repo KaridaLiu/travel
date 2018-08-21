@@ -13,7 +13,7 @@ export default {
 <style lang="stylus" scoped>
 #strategySearch
   line-height: .48rem
-  margin: .1rem .25rem
+  margin: .15rem .25rem
   background: #f2f2f2
   text-align: center
   border-radius: .05rem
