@@ -45,7 +45,7 @@ export default {
       padding-bottom: 45%
       line-height: .38rem
       font-weight: bolder
-      font-size: .33rem
+      font-size: .3rem
       margin-top: .05rem
     .content-msg
       font-size: .25rem

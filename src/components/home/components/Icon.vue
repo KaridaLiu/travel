@@ -33,7 +33,7 @@ export default {
         iconUrl: '../../../../static/img/wendaren.png',
         iconDesc: '问达人',
         iconColor: '#52dac0',
-        type: 'Strategy'
+        type: 'Answer'
       }, {
         id: 'img004',
         iconUrl: '../../../../static/img/jieban.png',

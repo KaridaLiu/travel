@@ -5,6 +5,7 @@ import Search from '@/components/search/Search'
 import Login from '@/components/login/Login'
 import Strategy from '@/components/strategy/Strategy'
 import Travels from '@/components/travels/Travels'
+import Answer from '@/components/answer/Answer'
 
 Vue.use(Router)
 
@@ -30,6 +31,10 @@ export default new Router({
       path: '/travels',
       name: 'Travels',
       component: Travels
+    }, {
+      path: '/answer',
+      name: 'Answer',
+      component: Answer
     }
   ]
 })
