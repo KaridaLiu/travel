@@ -6,6 +6,7 @@ import Login from '@/components/login/Login'
 import Strategy from '@/components/strategy/Strategy'
 import Travels from '@/components/travels/Travels'
 import Answer from '@/components/answer/Answer'
+import Friends from '@/components/friends/Friends'
 
 Vue.use(Router)
 
@@ -35,6 +36,10 @@ export default new Router({
       path: '/answer',
       name: 'Answer',
       component: Answer
+    }, {
+      path: '/friends',
+      name: 'Friends',
+      component: Friends
     }
   ]
 })

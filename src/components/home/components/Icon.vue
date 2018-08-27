@@ -39,7 +39,7 @@ export default {
         iconUrl: '../../../../static/img/jieban.png',
         iconDesc: '结伴',
         iconColor: '#f94a87',
-        type: 'Strategy'
+        type: 'Friends'
       }, {
         id: 'img005',
         iconUrl: '../../../../static/img/jiudian.png',
