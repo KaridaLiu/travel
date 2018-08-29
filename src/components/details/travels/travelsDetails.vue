@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
-    <keep-alive>
-      <router-view/>
-    </keep-alive>
+  <div class="travelDetails">
+    travels
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'travelDetails'
 }
 </script>
 

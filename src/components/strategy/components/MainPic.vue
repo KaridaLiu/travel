@@ -1,11 +1,11 @@
 <template>
-  <div id="strategy-mainpic">
+  <router-link tag="div" class="strategy-mainpic" to="/strategyDetails/0001">
     <img class="mainpic-img" src="https://p1-q.mafengwo.net/s11/M00/95/0B/wKgBEFtYNMyAVyioAAuytLNi7n462.jpeg?imageMogr2%2Fthumbnail%2F%21750x300r%2Fgravity%2FCenter%2Fcrop%2F%21750x300%2Fquality%2F100">
     <div class="mainpic-title-wrapper">
       <p class="mainpic-title">泸沽湖写真旅拍攻略 | 10次环湖经验独立摄影师教你拍</p>
       <span class="iconfont mainpic-icon">&#xe65f;</span>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-#strategy-mainpic
+.strategy-mainpic
   overflow: hidden
   position: relative
   width: 100%

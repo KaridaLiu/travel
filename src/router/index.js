@@ -7,6 +7,8 @@ import Strategy from '@/components/strategy/Strategy'
 import Travels from '@/components/travels/Travels'
 import Answer from '@/components/answer/Answer'
 import Friends from '@/components/friends/Friends'
+import strategyDetails from '@/components/details/strategy/strategyDetails'
+import travelDetails from '@/components/details/travels/travelDetails'
 
 Vue.use(Router)
 
@@ -40,6 +42,14 @@ export default new Router({
       path: '/friends',
       name: 'Friends',
       component: Friends
+    }, {
+      path: '/strategyDetails/:id',
+      name: 'strategyDetails',
+      component: strategyDetails
+    }, {
+      path: '/travelDetails/:id',
+      name: 'travelDetails',
+      component: travelDetails
     }
   ]
 })
