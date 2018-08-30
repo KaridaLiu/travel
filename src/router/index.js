@@ -8,7 +8,7 @@ import Travels from '@/components/travels/Travels'
 import Answer from '@/components/answer/Answer'
 import Friends from '@/components/friends/Friends'
 import strategyDetails from '@/components/details/strategy/strategyDetails'
-import travelDetails from '@/components/details/travels/travelDetails'
+import travelDetails from '@/components/details/travels/travelsDetails'
 
 Vue.use(Router)
 

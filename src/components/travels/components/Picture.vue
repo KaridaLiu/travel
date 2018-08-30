@@ -15,7 +15,7 @@
             v-for="item of travelsList"
             :key="item.id"
           >
-            <div class="picture-wrapper">
+            <router-link tag="div" :to="'/travelDetails/' + item.id" class="picture-wrapper">
               <div class="picture-img">
                 <img :src="item.imgUrl">
               </div>
@@ -25,7 +25,7 @@
                   我是<span>{{item.author}}</span>我在<span>{{item.place}}</span>
                 </p>
               </div>
-            </div>
+            </router-link>
           </swiper-slide>
         </swiper>
       </div>
