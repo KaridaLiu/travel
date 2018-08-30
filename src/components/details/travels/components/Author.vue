@@ -55,11 +55,12 @@ export default {
       .author-message
         font-size: .22rem
       .author-level
-        border: .01rem solid #000
-        background: yellow
+        border: .01rem solid #a3a3a3
+        background: #ffdb26
         padding: 0 .05rem
         font-size: .22rem
         line-height: .55rem
+        color: #474747
   .author-right
     float: right
     width: 30%

@@ -1,6 +1,6 @@
 <template>
   <div class="answerContent">
-    <div class="answerContent-wrapper">
+    <router-link tag="div" to="/answerDetails/0001" class="answerContent-wrapper">
       <div class="answerContent-title">乘坐53个小时的青藏铁路到拉萨是怎样的体验？</div>
       <div class="answerContent-author">
         <div class="answerContent-author-img">
@@ -19,7 +19,7 @@
         <div class="answerContent-place">西藏</div>
         <div class="answerContent-see">407240浏览</div>
       </div>
-    </div>
+    </router-link>
     <div class="answerContent-wrapper">
       <div class="answerContent-title">乘坐53个小时的青藏铁路到拉萨是怎样的体验？</div>
       <div class="answerContent-author">
