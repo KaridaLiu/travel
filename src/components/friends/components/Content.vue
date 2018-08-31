@@ -1,9 +1,11 @@
 <template>
   <div class="friendsContent">
-    <div
+    <router-link
+      tag="div"
       class="friendsContent-wrapper"
       v-for="item of friendsList"
       :key="item.id"
+      :to="'/FriendDetails/' + item.id"
     >
       <div class="friendsContent-top">
         <img :src="item.imgUrl">
@@ -26,7 +28,7 @@
           {{item.summary}}
         </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 

@@ -10,6 +10,7 @@ import Friends from '@/components/friends/Friends'
 import strategyDetails from '@/components/details/strategy/strategyDetails'
 import travelDetails from '@/components/details/travels/travelsDetails'
 import answerDetails from '@/components/details/answer/answerDetails'
+import FriendDetails from '@/components/details/friends/FriendDetails'
 
 Vue.use(Router)
 
@@ -51,10 +52,10 @@ export default new Router({
       path: '/travelDetails/:id',
       name: 'travelDetails',
       component: travelDetails
-    }, {
-      path: '/answerDetails/:id',
-      name: 'answerDetails',
-      component: answerDetails
+    }, , {
+      path: '/FriendDetails/:id',
+      name: 'FriendDetails',
+      component: FriendDetails
     }
   ]
 })

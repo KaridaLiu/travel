@@ -95,16 +95,16 @@ export default {
       margin: .2rem .3rem .25rem .1rem
       .recommand-summary
         overflow: hidden
-        font-size: .27rem
+        font-size: .25rem
         display: -webkit-box
         -webkit-box-orient: vertical
         -webkit-line-clamp: 3
-        line-height: .38rem
+        line-height: .33rem
       .recommand-extra
         position: absolute
         height: .4rem
         width: 100%
-        font-size: .25rem
+        font-size: .2rem
         line-height: .4rem
         bottom: .05rem
         .recommand-message
